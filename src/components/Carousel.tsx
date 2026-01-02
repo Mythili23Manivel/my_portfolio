@@ -7,7 +7,7 @@ const images = [
   { src: "/carousel/BATCH1.jpeg", caption: "Earned 200-Day LeetCode Badge" },
   { src: "/carousel/PIC4.jpg", caption: "Academic Excellence Award (2025)" },
   {
-    src: "/carousel/BOOK.jpeg",
+    src: "/carousel/BOOK.webp",
     caption:
       "Smart Hospitals in the Modern Era – Surgical Robots in Smart Hospitals | Book Chapter (Chapter 7) – Wiley",
   },
@@ -17,7 +17,7 @@ const images = [
   { src: "/carousel/pic9.jpeg", caption: "Best Student Award (2023 - 2024)" },
   { src: "/carousel/pic14.jpeg", caption: "Academic Achievement Moment" },
   { src: "/carousel/PIC6.jpeg", caption: "Workshop Coordinator – National Level Workshop (KEC)" },
-  { src: "/carousel/CAR.jpeg", caption: "Explored new skills in Robotics Lab" },
+  { src: "/carousel/car.jpeg", caption: "Explored new skills in Robotics Lab" },
   { src: "/carousel/PIC8.jpeg", caption: "Newsletter released to KEC Principal" },
   { src: "/carousel/news.jpeg", caption: "Publishing 5+ Newsletters" },
   { src: "/carousel/BATCH2.jpg", caption: "Earned 50 problem completions in CodeChef batch" },
