@@ -35,7 +35,7 @@ const projects = [
       'This system reduced appointment scheduling time by 40%, demonstrating significant operational efficiency improvements.',
     ],
     techStack: ['MongoDB', 'Express.js', 'React', 'Node.js', 'AI chatbot'],
-    link: 'https://github.com/MythilManivel/SMART_HOSPITAL',
+    link: 'https://github.com/Mythili23Manivel/SMART_HOSPITAL',
     image: hospitalImg,
   },
   {
@@ -47,7 +47,7 @@ const projects = [
       'This system aids educators in understanding student focus levels, enhancing teaching effectiveness.',
     ],
     techStack: ['Python', 'YOLOv8', 'OpenCV', 'Computer Vision', 'AI Surveillance'],
-    link: 'https://github.com/MythilManivel/mindwatch',
+    link: 'https://github.com/Mythili23Manivel/mindwatch',
     image: classroomImg,
   },
   {
@@ -60,7 +60,7 @@ const projects = [
       'This project supports agricultural health monitoring, improving yield quality and disease management.',
     ],
     techStack: ['Python', 'YOLOv8', 'OpenCV', 'AI Classification'],
-    link: 'https://github.com/MythilManivel/Curcuma_longa',
+    link: 'https://github.com/Mythili23Manivel/Curcuma_longa',
     image: turmericImg,
   },
   {
@@ -72,7 +72,7 @@ const projects = [
       'The app encourages community engagement among cooking enthusiasts.',
     ],
     techStack: ['MongoDB', 'Express.js', 'React', 'Node.js', 'JWT'],
-    link: 'https://github.com/MythilManivel/cooking-recipe-sharing',
+    link: 'https://github.com/Mythili23Manivel/cooking-recipe-sharing',
     image: recipeImg,
   },
   {
@@ -113,7 +113,7 @@ const projects = [
       'Implemented real-time updates, role-based access (admin/teacher/student), and automated report generation.',
     ],
     techStack: ['Python', 'React.js', 'OpenCV', 'AWS', 'YOLO V8', 'MongoDB'],
-    link: 'https://github.com/MythilManivel/Smart-Curriculum-Activity-Attendance-App',
+    link: 'https://github.com/Mythili23Manivel/Smart-Curriculum-Activity-Attendance-App',
     image: curriculumImg,
   },
   {
@@ -140,7 +140,7 @@ const projects = [
       'Implemented a FastAPI/Flask backend to process uploaded images and return real-time identification results.',
     ],
     techStack: ['Python', 'CNN', 'YOLO V8', 'Roboflow', 'OpenCV'],
-    link: 'https://github.com/MythilManivel/Cattle-Breed-Detection',
+    link: 'https://github.com/Mythili23Manivel/Cattle-Breed-Detection',
     image: cattleImg,
   },
 ];
