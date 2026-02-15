@@ -26,6 +26,13 @@ const achievements = [
     highlight: false,
   },
   {
+  title: 'Winner – BYTS India 24-Hour National Hackathon (2025)',
+  description: 'Won 1st place for developing the “CityConnect” smart city platform and received a ₹5,000 cash prize.',
+    icon: Trophy,
+    highlight: true,
+},
+
+  {
     title: '3rd Prize – Hackathon CIT "AI-Powered Hospital Management System" (2025)',
     description: '',
     icon: Medal,

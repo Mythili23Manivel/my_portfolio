@@ -5,17 +5,37 @@ import turmericImg from '@/assets/projects/turmeric.jpeg';
 import recipeImg from '@/assets/projects/recipe.jpeg';
 import curriculumImg from '@/assets/projects/curriculum.png';
 import cattleImg from '@/assets/projects/cattle.png';
+import ConnectImg from '@/assets/projects/cityConnectImg.avif';
+import licencePlateImg from '@/assets/projects/PlateImg.jpg';
+import documentationAiImg from '@/assets/projects/documentation.jpg';
+import vendorLinkImg from '@/assets/projects/vendor.webp';
 
 const projects = [
   {
+  title: 'CityConnect – Smart City Management Platform',
+   period: 'Jan 2026 — Feb 2026',
+  description: 'Developed a full-stack smart city platform to manage public complaints, bill payments, local jobs, and emergency services through a unified digital system.',
+  details: [
+    'Built a MERN-based web application for citizens to register complaints, pay utility bills, and access city services.',
+    'Integrated AI-powered chatbot for automated civic assistance and real-time query handling.',
+    'Implemented admin dashboard for tracking complaints, announcements, and service status updates.',
+    'Added JWT-based authentication and role-based access control for users and administrators.',
+  ],
+  techStack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'Groq API', 'Bootstrap'],
+  link: 'https://github.com/Mythili23Manivel/city_connect',
+  image: ConnectImg,
+},
+
+  {
     title: 'AI-Powered Hospital Management System',
+    period: 'Mar 2025 — May 2025',
     description: 'Developed a comprehensive hospital portal integrating an AI chatbot to streamline patient interactions and optimize database operations.',
     details: [
       'Utilized MERN stack technologies including MongoDB, Express.js, React, and Node.js, with JWT for authentication and REST APIs for efficient communication.',
       'This system reduced appointment scheduling time by 40%, demonstrating significant operational efficiency improvements.',
     ],
     techStack: ['MongoDB', 'Express.js', 'React', 'Node.js', 'AI chatbot'],
-    link: 'https://github.com/MythilManivel/SMART-HOSPITAL',
+    link: 'https://github.com/MythilManivel/SMART_HOSPITAL',
     image: hospitalImg,
   },
   {
@@ -56,6 +76,36 @@ const projects = [
     image: recipeImg,
   },
   {
+  title: 'VendorLink – Supplier & Purchase Management Platform',
+  period: '2026',
+  description: 'Built a centralized digital platform for manufacturing units and warehouses to manage purchase orders, invoices, payments, and vendor performance—eliminating spreadsheet/email-based tracking.',
+  details: [
+    'Designed a complete PO workflow: supplier selection, PO creation, and status tracking for better visibility.',
+    'Implemented invoice-to-PO matching to reduce invoice mismatches and improve financial accuracy.',
+    'Added payment tracking with clear payment status (Pending / Paid) to prevent delays and disputes.',
+    'Introduced vendor rating/performance scoring to evaluate suppliers based on reliability and transaction history.',
+    'Built dashboard-style UI for quick insights into orders, invoices, and vendor performance.',
+  ],
+  techStack: ['React.js', 'JavaScript', 'HTML', 'CSS', 'REST API'],
+  link: 'https://github.com/Mythili23Manivel/VendorLink',
+  image: vendorLinkImg,
+},
+
+  {
+  title: 'License Plate Detection & Recognition System',
+  period: 'Jun 2025 — Oct 2025',
+  description: 'Engineered a real-time license plate detection system achieving 92% accuracy in low-light conditions.',
+  details: [
+    'Developed a YOLOv8-based object detection model to accurately detect vehicle number plates.',
+    'Integrated OpenCV for image preprocessing and real-time video frame handling.',
+    'Implemented EasyOCR for extracting and recognizing license plate text.',
+    'Optimized detection pipeline for improved performance under low-light and challenging environments.',
+  ],
+  techStack: ['Python', 'OpenCV', 'EasyOCR', 'YOLOv8'],
+  link: 'https://github.com/Mythili23Manivel/Licence_Plate',
+  image: licencePlateImg,
+},
+  {
     title: 'Smart Curriculum & Attendance App',
     period: 'Aug 2025 — Nov 2025',
     description: 'Developed a smart education management app to digitalize curriculum progression, student activity tracking, and attendance monitoring.',
@@ -66,6 +116,21 @@ const projects = [
     link: 'https://github.com/MythilManivel/Smart-Curriculum-Activity-Attendance-App',
     image: curriculumImg,
   },
+  {
+  title: 'Documentation AI – Intelligent Document Analyzer',
+  period: '2025',
+  description: 'Built an AI-driven document analysis system with semantic embeddings, abstractive summarization, and a RAG-powered chatbot for interactive querying.',
+  details: [
+    'Implemented semantic embedding models to understand contextual relationships within documents.',
+    'Developed abstractive summarization to generate concise, human-like document summaries.',
+    'Integrated a Retrieval-Augmented Generation (RAG) chatbot to answer user queries based on uploaded documents.',
+    'Designed a user interface for uploading PDFs and interacting with the AI chatbot in real time.',
+  ],
+  techStack: ['Python', 'LangChain', 'OpenAI/Embedding Models', 'Vector Database', 'FastAPI/Flask'],
+  link: 'https://github.com/Mythili23Manivel/DOCUMENTATION',
+  image: documentationAiImg,
+},
+
   {
     title: 'Cattle Breed Classification',
     period: 'Sep 2025 — Dec 2025',

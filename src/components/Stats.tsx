@@ -2,7 +2,7 @@ import { useEffect, useState, useRef } from 'react';
 import { Code2, Briefcase, Layers } from 'lucide-react';
 
 const stats = [
-  { value: 6, suffix: '+', label: 'Projects Completed', icon: Code2 },
+  { value: 10, suffix: '+', label: 'Projects Completed', icon: Code2 },
   { value: 1, suffix: '+', label: 'Years Experience', icon: Briefcase },
   { value: 10, suffix: '+', label: 'Technologies Used', icon: Layers },
 ];

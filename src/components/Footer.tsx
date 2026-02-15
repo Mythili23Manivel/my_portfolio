@@ -71,9 +71,8 @@ const Footer = () => {
               className="flex items-center justify-center gap-1 mt-0.5 sm:mt-1"
               aria-label="Designed and built with love by Mythili"
             >
-              Designed & built with{' '}
-              <Heart className="w-3 h-3 sm:w-4 sm:h-4 text-primary fill-primary animate-pulse" /> by{' '}
-              <span className="font-medium text-foreground">Mythili</span>
+              Designed & built by
+              <span className="font-medium text-foreground">Mythili M</span>
             </p>
           </div>
 

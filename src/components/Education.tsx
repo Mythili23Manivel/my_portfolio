@@ -8,7 +8,7 @@ const educationData = [
     institutionUrl: 'https://www.kongu.ac.in/',
     location: 'ERODE',
     highlights: [
-      'Achieved 91.2% marks in B.Tech Information Technology program.',
+      'Achieved 90.7% marks in B.Tech Information Technology program.',
       'Relevant coursework includes advanced subjects in IT and software development.',
       'Recognized for academic excellence with a strong foundation in programming and system design.',
     ],

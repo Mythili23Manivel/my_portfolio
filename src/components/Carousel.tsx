@@ -2,9 +2,10 @@ import React, { useState, useEffect, useRef, useCallback } from "react";
 
 const images = [
   { src: "/carousel/PIC1.jpeg", caption: "Event Ambassador – Mechnotron 2K25" },
-  { src: "/carousel/PIC2.jpg", caption: "Award Recognition Ceremony" },
+  { src: "/carousel/pic0.jpeg", caption: "BYTS India 24-Hour National Hackathon (2026)" },
   { src: "/carousel/pic11.jpeg", caption: "Hackathon – 3rd Place | CIT" },
   { src: "/carousel/BATCH1.jpeg", caption: "Earned 200-Day LeetCode Badge" },
+  { src: "/carousel/PIC2.jpg", caption: "Award Recognition Ceremony" },
   { src: "/carousel/PIC4.jpg", caption: "Academic Excellence Award (2025)" },
   {
     src: "/carousel/BOOK.webp",
