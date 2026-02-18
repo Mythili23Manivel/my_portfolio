@@ -43,7 +43,7 @@ const Hero = () => {
 
         {/* GitHub */}
         <a
-          href="https://github.com/MythilManivel/"
+          href="https://github.com/Mythili23Manivel/"
           target="_blank"
           rel="noopener noreferrer"
           className="icon-button w-10 sm:w-12 h-10 sm:h-12"
