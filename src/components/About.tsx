@@ -69,11 +69,11 @@ const About = () => {
                 <p className="text-xs sm:text-sm text-muted-foreground">Technologies</p>
               </div>
               <div className="flex-1 min-w-[80px] text-center px-3 sm:px-6 py-3 sm:py-4 rounded-lg sm:rounded-2xl bg-card border border-border">
-                <p className="text-xl sm:text-2xl font-bold gradient-text">7</p>
+                <p className="text-xl sm:text-2xl font-bold gradient-text">8+</p>
                 <p className="text-xs sm:text-sm text-muted-foreground">Awards</p>
               </div>
               <div className="flex-1 min-w-[80px] text-center px-3 sm:px-6 py-3 sm:py-4 rounded-lg sm:rounded-2xl bg-card border border-border">
-                <p className="text-xl sm:text-2xl font-bold gradient-text">4</p>
+                <p className="text-xl sm:text-2xl font-bold gradient-text">3</p>
                 <p className="text-xs sm:text-sm text-muted-foreground">Certifications </p>
               </div>
             </div>
