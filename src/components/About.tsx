@@ -2,81 +2,156 @@ import profileImage from '@/assets/profile.jpeg';
 
 const About = () => {
   return (
-    <section id="about" className="section-container mesh-gradient">
-      <div className="max-w-6xl mx-auto">
-        <span className="section-label text-xs sm:text-sm">ABOUT</span>
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-display text-foreground mb-2 sm:mb-4">About Me</h2>
-        <p className="text-xs text-muted-foreground uppercase tracking-widest mb-10 sm:mb-16">MORE ABOUT ME</p>
+    <section
+      id="about"
+      className="section-container mesh-gradient py-20 sm:py-28"
+    >
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div className="grid md:grid-cols-2 gap-8 sm:gap-12 md:gap-16 items-center">
-          <div className="flex justify-center order-2 md:order-1 px-2 sm:px-0">
+        {/* Heading Section */}
+        <div className="text-center mb-16 sm:mb-24">
+
+          <span className="inline-block px-6 py-2 rounded-full border border-violet-300/40 bg-violet-200/20 text-violet-500 text-sm font-semibold tracking-[0.25em] uppercase">
+            About
+          </span>
+
+          <h2 className="text-5xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-zinc-900 dark:text-white mt-6 mb-5">
+            About Me
+          </h2>
+
+          <p className="text-sm uppercase tracking-[0.4em] text-zinc-500 dark:text-zinc-400">
+            More About Me
+          </p>
+        </div>
+
+        {/* Content Section */}
+        <div className="grid md:grid-cols-2 gap-14 lg:gap-24 items-center">
+
+          {/* Image Section */}
+          <div className="flex justify-center order-2 md:order-1">
+
             <div className="relative">
-              {/* Decorative elements */}
-              <div className="absolute -inset-3 sm:-inset-4 bg-gradient-to-r from-primary/20 via-accent/20 to-primary/20 rounded-full blur-2xl animate-pulse-glow" />
-              
-              <div className="gradient-border w-56 h-56 sm:w-72 sm:h-72 md:w-80 md:h-80 relative animate-float">
-                <div className="gradient-border-inner w-full h-full">
+
+              {/* Glow Effect */}
+              <div className="absolute -inset-5 bg-gradient-to-r from-violet-500/20 via-fuchsia-400/20 to-purple-500/20 rounded-full blur-3xl animate-pulse" />
+
+              {/* Image */}
+              <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[360px] lg:h-[360px] rounded-full p-[5px] bg-gradient-to-r from-violet-500 via-fuchsia-500 to-purple-500 animate-float shadow-2xl">
+
+                <div className="w-full h-full rounded-full overflow-hidden bg-white dark:bg-zinc-900">
                   <img
                     src={profileImage}
-                    alt="Mythili M"
-                    className="w-full h-full object-cover"
+                    alt="Mythili"
+                    className="w-full h-full object-cover hover:scale-105 transition duration-500"
                   />
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="space-y-4 sm:space-y-6 order-1 md:order-2 px-2 sm:px-0">
-            <div className="flex gap-2 flex-wrap mb-4 sm:mb-6">
-              <span className="skill-tag text-xs sm:text-sm bg-accent/10 border-accent/20 text-accent">Full Stack</span>
-              
-              <span className="skill-tag text-xs sm:text-sm bg-primary/10 border-primary/20 text-primary">AI</span>
-              <span className="skill-tag text-xs sm:text-sm bg-accent/10 border-accent/20 text-accent">Machine Learning</span>
+          {/* Text Content */}
+          <div className="space-y-8 order-1 md:order-2 max-w-2xl">
+
+
+
+            {/* Intro */}
+            <div>
+
+              <h3 className="text-4xl sm:text-5xl font-semibold tracking-tight leading-[1.1] text-zinc-900 dark:text-white">
+
+                Hey! I’m{" "}
+
+                <span className="bg-gradient-to-r from-violet-600 via-fuchsia-500 to-purple-500 bg-clip-text text-transparent font-bold">
+                  MYTHILI
+                </span>
+
+              </h3>
             </div>
 
-            <h3 className="text-2xl sm:text-3xl font-bold font-display text-foreground">
-              Hey! I'm <span className="gradient-text">MYTHILI</span>
-            </h3>
+            {/* Description */}
+            <div className="space-y-6 text-zinc-600 dark:text-zinc-300">
 
-           <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-                I am a <strong>Full Stack & AI/ML Developer</strong> with strong expertise in MERN stack and Python.
+              <p className="text-[17px] leading-9 font-normal tracking-wide">
+                I am a{" "}
+                <span className="font-semibold text-zinc-900 dark:text-white">
+                  Full Stack & AI/ML Developer
+                </span>{" "}
+                with strong expertise in MERN Stack and Python development.
               </p>
 
-              <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-                I specialize in building scalable web applications and intelligent AI-driven systems.
+              <p className="text-[17px] leading-9 font-normal tracking-wide">
+                I specialize in building scalable web applications and intelligent
+                AI-driven systems with modern technologies and elegant UI design.
               </p>
 
-              <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-                I have hands-on experience with AI tools like <strong>YOLOv8</strong>, focusing on computer vision solutions.
+              <p className="text-[17px] leading-9 font-normal tracking-wide">
+                I have hands-on experience working with{" "}
+                <span className="font-semibold text-violet-600 dark:text-violet-400">
+                  YOLOv8
+                </span>
+                , focusing on computer vision and real-time AI solutions.
               </p>
 
-              <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-                Currently, I am pursuing <strong>B.Tech in Information Technology</strong> at Kongu Engineering College.
+              <p className="text-[17px] leading-9 font-normal tracking-wide">
+                Currently pursuing{" "}
+                <span className="font-semibold text-zinc-900 dark:text-white">
+                  B.Tech Information Technology
+                </span>{" "}
+                at Kongu Engineering College.
               </p>
 
-              <p className="text-muted-foreground leading-relaxed text-sm sm:text-base">
-                I am passionate about contributing at the intersection of software development and AI/ML.
+              <p className="text-[17px] leading-9 font-normal tracking-wide">
+                Passionate about combining software engineering with AI/ML to
+                create impactful real-world innovations.
               </p>
 
-
-            <div className="flex gap-2 sm:gap-4 pt-4 flex-wrap">
-              <div className="flex-1 min-w-[80px] text-center px-3 sm:px-6 py-3 sm:py-4 rounded-lg sm:rounded-2xl bg-card border border-border">
-                <p className="text-xl sm:text-2xl font-bold gradient-text">10+</p>
-                <p className="text-xs sm:text-sm text-muted-foreground">Projects</p>
-              </div>
-
-              <div className="flex-1 min-w-[80px] text-center px-3 sm:px-6 py-3 sm:py-4 rounded-lg sm:rounded-2xl bg-card border border-border">
-                <p className="text-xl sm:text-2xl font-bold gradient-text">10+</p>
-                <p className="text-xs sm:text-sm text-muted-foreground">Awards</p>
-              </div>
-              <div className="flex-1 min-w-[80px] text-center px-3 sm:px-6 py-3 sm:py-4 rounded-lg sm:rounded-2xl bg-card border border-border">
-                <p className="text-xl sm:text-2xl font-bold gradient-text">4</p>
-                <p className="text-xs sm:text-sm text-muted-foreground">Certifications </p>
-              </div>              <div className="flex-1 min-w-[80px] text-center px-3 sm:px-6 py-3 sm:py-4 rounded-lg sm:rounded-2xl bg-card border border-border">
-                <p className="text-xl sm:text-2xl font-bold gradient-text">5+</p>
-                <p className="text-xs sm:text-sm text-muted-foreground">NPTEL Certificates</p>
-              </div>
             </div>
+
+            {/* Stats */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 pt-8">
+
+              <div className="text-center p-5 rounded-3xl bg-white/60 dark:bg-zinc-900/40 backdrop-blur-xl border border-white/20 shadow-lg hover:-translate-y-2 transition duration-300">
+                <p className="text-3xl font-bold bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent">
+                  10+
+                </p>
+
+                <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-2">
+                  Projects
+                </p>
+              </div>
+
+              <div className="text-center p-5 rounded-3xl bg-white/60 dark:bg-zinc-900/40 backdrop-blur-xl border border-white/20 shadow-lg hover:-translate-y-2 transition duration-300">
+                <p className="text-3xl font-bold bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent">
+                  10+
+                </p>
+
+                <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-2">
+                  Awards
+                </p>
+              </div>
+
+              <div className="text-center p-5 rounded-3xl bg-white/60 dark:bg-zinc-900/40 backdrop-blur-xl border border-white/20 shadow-lg hover:-translate-y-2 transition duration-300">
+                <p className="text-3xl font-bold bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent">
+                  4
+                </p>
+
+                <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-2">
+                  Certifications
+                </p>
+              </div>
+
+              <div className="text-center p-5 rounded-3xl bg-white/60 dark:bg-zinc-900/40 backdrop-blur-xl border border-white/20 shadow-lg hover:-translate-y-2 transition duration-300">
+                <p className="text-3xl font-bold bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent">
+                  5+
+                </p>
+
+                <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-2">
+                  NPTEL
+                </p>
+              </div>
+
+            </div>
+
           </div>
         </div>
       </div>

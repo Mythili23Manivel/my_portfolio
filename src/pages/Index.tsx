@@ -21,6 +21,7 @@ const Index = () => {
         <Hero />
         <About />
         <Stats />
+        <Carousel/>
         <Skills />
         <Education />
         <Experience />
@@ -29,7 +30,6 @@ const Index = () => {
         <Certifications />
         <Activities />
         <Publications/>
-        <Carousel/>
       </main>
       <Footer />
     </div>
