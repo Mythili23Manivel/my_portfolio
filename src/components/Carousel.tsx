@@ -1,22 +1,31 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
 
 const images = [
-  { src: "/carousel/PIC1.jpeg", caption: "Event Ambassador – Mechnotron 2K25" },
   { src: "/carousel/pic0.jpeg", caption: "BYTS India 24-Hour National Hackathon (2026)" },
   { src: "/carousel/pic11.jpeg", caption: "Hackathon – 3rd Place | CIT" },
-  { src: "/carousel/BATCH1.jpeg", caption: "Earned 200-Day LeetCode Badge" },
-  { src: "/carousel/PIC2.jpg", caption: "Award Recognition Ceremony" },
+{ src: "/carousel/annual_day.jpeg", caption: "Recognized for Excellence at Annual Day Celebration" },
+
+{ src: "/carousel/gate.jpeg", caption: "GATE 2026 Qualified – A Milestone in Academic Success" },
+
+{ src: "/carousel/excellence.jpg", caption: "Recipient of the Academic Excellence Award 2026" },
   { src: "/carousel/PIC4.jpg", caption: "Academic Excellence Award (2025)" },
+    { src: "/carousel/pic14.jpeg", caption: "Academic Achievement Moment (2024)" },
+  { src: "/carousel/co-curricular.jpeg", caption: "Honored with the Best Co-Curricular Performer Award" },
+{ src: "/carousel/pic9.jpeg", caption: "Best Student Award (2023 - 2024)" },
+  { src: "/carousel/PIC2.jpg", caption: "Award Recognition Ceremony" },
+    { src: "/carousel/PIC1.jpeg", caption: "Event Ambassador – Mechnotron 2K25" },
   {
     src: "/carousel/BOOK.webp",
     caption:
       "Smart Hospitals in the Modern Era – Surgical Robots in Smart Hospitals | Book Chapter (Chapter 7) – Wiley",
   },
   { src: "/carousel/batch3.jpeg", caption: "AWS Certified Cloud Practitioner" },
-  { src: "/carousel/PIC7.jpeg", caption: "2nd Prize – Project Presentation | SKCET" },
+    { src: "/carousel/javase17.png", caption: "Oracle Certified Professional: Java SE 17 Developer" },
+    { src: "/carousel/BATCH1.jpeg", caption: "Earned 200-Day LeetCode Badge" },
+
+    { src: "/carousel/PIC7.jpeg", caption: "2nd Prize – Project Presentation | SKCET" },
   { src: "/carousel/PIC5.jpeg", caption: "Project Expo Event – Technical Showcase" },
-  { src: "/carousel/pic9.jpeg", caption: "Best Student Award (2023 - 2024)" },
-  { src: "/carousel/pic14.jpeg", caption: "Academic Achievement Moment" },
+
   { src: "/carousel/PIC6.jpeg", caption: "Workshop Coordinator – National Level Workshop (KEC)" },
   { src: "/carousel/car.jpeg", caption: "Explored new skills in Robotics Lab" },
   { src: "/carousel/PIC8.jpeg", caption: "Newsletter released to KEC Principal" },
